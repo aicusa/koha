@@ -1,0 +1,33 @@
+## KOHA DOCUMENTATION
+
+**SERVER** 
+
+AIC library database KOHA is hosted at AWE (Amazon Web Services) on N. Virginia Region using EC2. [here](http://aws.amazon.com/).
+
+
+**HOW TO CHANGE THE WEBSITE** 
+
+In order to change the library website, you have to login from 
+
+http://ec2-54-145-21-234.compute-1.amazonaws.com:8080/cgi-bin/koha/mainpage.pl?logout.x=1
+
+Click **Administration** => **System Preferences**
+
+To change the left navigation in the page search for
+ 
+**OpacHeader** -- Header
+
+**OpacNav** -- Left Navigation
+
+**OpacNavRight** -- Right Navigation
+
+
+
+
+Read koha documents here:
+
+http://manual.koha-community.org/3.2/en/impopac.html
+
+Watch this tutorial for more detail:
+
+https://www.youtube.com/watch?v=GPmdJnqxYZI
